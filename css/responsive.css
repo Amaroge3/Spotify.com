@@ -1,0 +1,25 @@
+/* media query for width of 680px or higher */
+@media screen and (min-width:680px){
+	
+	/***********************
+		MEDIA: NAVIGATION
+	*************************/
+	/* navigation bar */
+	.navbar {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	/* banner element for logo */
+	div.navbar-header .navbar-brand{
+		font-size: 1.8em;
+	}
+
+	.navbar .container-fluid .navbar-header a.navbar-brand{
+		margin-left: 45px;
+	}
+	/* spotify logo image */
+	.spotify-logo{
+		height:40px;
+		width: 40px;
+	}
+}
