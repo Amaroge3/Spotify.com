@@ -2,16 +2,70 @@
 <html>
 <head>
 	<title>Music for everyone - Spotify</title>
-	<link rel="stylesheet" href="css/spotify.css">
+	<!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/spotify.css">
+      <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
-<body>
-	<nav id="navigation">
-		
-	</nav>
 
-<div>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img class="spotify-logo" src="img/spotify-logo.png">
+      <span>Spotify<sup id="sup">&reg;</sup></span></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="left-navs"><a href="#">Premium</a></li>
+        <li class="left-navs"><a href="#">Help</a></li> 
+        <li class="left-navs"><a href="#">Download</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="separator"><a><span></span>|</a></li>
+        <li class="rightmost-nav"><a href="#"><span class=""></span> Sign up</a></li>
+        <li class="rightmost-nav"><a href="#"><span class=""></span> Log In</a></li>
+      </ul>
+    </div>
+</nav>
+
+
+  
+
+  <div class="collapse" id="exCollapsingNavbar">
+    <span class="icon-bar">Premium</span>
+    <span class="icon-bar">Brands</span>
+    <span class="text-muted">Toggleable via the navbar brand.</span>
+
+    <span class="text-muted">Toggleable via the navbar brand.</span>
 </div>
+
+
+</nav>
+<!-- 
+	<nav id="navigation">
+			<p> Spotify</p>
+		<ul>
+			<li>Premium</li>
+			<li>Help</li>
+			<li>Download</li>
+			<li></li>
+		</ul>
+	</nav> -->
+</div> 
 </body> 
 
 </html>

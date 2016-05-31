@@ -1,4 +1,77 @@
+/*************************
+
+	BODY
+
+**************************/
 body {
 	background-image: url("../img/bgimage.png");
 	background-repeat: repeat-y;
+	margin:0;
+}
+
+/*************************
+
+	NAVIGATION
+
+**************************/
+/* make the whole navbar transparent */
+.navbar {
+	opacity: 0.8;
+}
+
+/* when the navbar element is selected, make the color lightblue with the specified rgb color.
+	also remove the default bootstrap background */
+ .navbar .navbar-right li.active a {
+	color: rgb(6, 100, 225);
+	background: none;
+}
+/* hover on the navbar elements */
+ .navbar .navbar-right ul.navbar-nav li a:hover{
+ 	background: none;
+ 	color: #00BFFF;
+}
+/* left navigation bar elements */
+ .navbar .navbar-right li.left-navs a{
+ 	color: white;
+ 	font-size: 1.140em;
+}
+/* increase font of the "Sign up" and "Log In" elements */
+.rightmost-nav {
+	font-size: 1.140em;
+}
+/* add margin right to the last child "Log in" to shift the elements to the left */ 
+.rightmost-nav:last-child {
+	margin-right: 30px;
+}
+/* make the elements colors white */
+div.navbar-header .navbar-brand{
+	color: white; 
+
+}
+/* change the container of the logo to flex and increases margin bottom and padding top */
+.navbar .container-fluid .navbar-header a.navbar-brand {
+	display:flex;
+	padding-top:10px;
+	margin-bottom: 10px;
+}
+
+/* the title "Spotify" on the left of the navigation */ 
+.navbar .container-fluid .navbar-header a.navbar-brand span {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+/* spotify image logo */
+.spotify-logo{
+	height:30px;
+	width: 30px;
+}
+/* superscript on the spotify logo */
+#sup{
+	font-size: 6px;
+	top: -10px;
+	left: 1px;
+}
+/* removes pointer events from the separator in the navigation */
+.separator{
+	pointer-events: none;
 }
